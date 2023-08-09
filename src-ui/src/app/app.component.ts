@@ -194,20 +194,7 @@ export class AppComponent implements OnInit, OnDestroy {
           backdropConfig: {
             offset: 0,
           },
-        },
-        {
-          anchorId: 'tour.outro',
-          title: $localize`Thank you! 🙏`,
-          content:
-            $localize`There are <em>tons</em> more features and info we didn't cover here, but this should get you started. Check out the documentation or visit the project on GitHub to learn more or to report issues.` +
-            '<br/><br/>' +
-            $localize`Lastly, on behalf of every contributor to this community-supported project, thank you for using Paperless-ngx!`,
-          route: '/dashboard',
-          isOptional: false,
-          backdropConfig: {
-            offset: 0,
-          },
-        },
+        }
       ],
       {
         enableBackdrop: true,
